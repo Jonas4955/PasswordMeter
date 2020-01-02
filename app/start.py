@@ -1,6 +1,6 @@
 import sys
-from app.requiriments.requirement import Requirements
-from app.porcentage.porcentages import Score
+from app.requiriments.requirement_additions import Requirements
+from app.score.score import Score
 
 sys.path.append('C:/Users/jonas.antunes/Desktop/python/')
 
