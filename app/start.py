@@ -1,5 +1,6 @@
 import sys
-from app.requiriments.requirement_additions import Requirements
+from app.requiriments.requirement_additions import RequirementsAdditions
+from app.requiriments.requirement_deductions import RequirementDeductions
 from app.score.score import Score
 
 sys.path.append('C:/Users/jonas.antunes/Desktop/python/')
@@ -8,14 +9,22 @@ print('-'*30, f'Verificação de senha', '-'*30)
 senha = input('Digite sua senha: ')
 
 
-passwd = Requirements(senha)
-lista = passwd.separar_lista()
-print(f'Separa string em lista: {passwd.separar_lista()}')
-passw = passwd.characters_passwd()
-print(f'Quantidade de Caracteres: {passw}')
-print(f'Upercase: {passwd.uppercases(lista, passw)}')
-print(f'Lowercase: {passwd.lowercases(lista, passw)}')
-print(f'Numbers: {passwd.numbers(lista, passw)}')
-print(f'Symbols: {passwd.symbols(lista, passw)}')
+add = RequirementsAdditions(senha)
+deduct = RequirementDeductions(senha)
 score = Score(senha)
-print(f'Score por letra {score.score_por_letras():.2f}')
+print(f'add: {score.score_add_characteres_passwd()}')
+print(f'add: {score.score_add_uppercases()}')
+print(f'add: {score.score_add_lowercases()}')
+print(f'add: {score.score_add_numbers()}')
+print(f'add: {score.score_add_symbols()}')
+print(f'add: {score.score_add_middle_numbers_or_symbols()}')
+print(f'add: {score.score_add_requeriments()}')
+print(f'deduct: {score.score_deduct_letters_only()}')
+print(f'deduct: {score.score_deduct_numbers_only()}')
+print(f'deduct: {score.score_deduct_consecutives_uppercases()}')
+print(f'deduct: {score.score_deduct_consecutives_lowercases()}')
+print(f'deduct: {score.score_deduct_consecutive_numbers()}')
+print(f'deduct: {score.score_deduct_sequential_letters()}')
+print(f'deduct: {score.score_deduct_sequential_numbers()}')
+print(f'deduct: {score.score_deduct_sequential_symbols()}')
+print(f'Score \033[1;32m{score.get_score():.0f}%\033[m')

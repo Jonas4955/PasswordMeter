@@ -33,49 +33,7 @@
       <recent name="C:\Users\jonas.antunes\Desktop\python\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.addictions">
-    <configuration name="addictions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/additions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/additions/addictions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="porcentages" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/porcentage" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/porcentage/porcentages.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.start">
     <configuration name="regras_pass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,7 +55,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="requirement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requirement_additions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +67,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/requiriments/requirement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/requiriments/requirement_additions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +76,49 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requirement_deductions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/requiriments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/requiriments/requirement_deductions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="score" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/score" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/score/score.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.addictions" />
-        <item itemvalue="Python.requirement" />
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.score" />
+        <item itemvalue="Python.requirement_deductions" />
         <item itemvalue="Python.regras_pass" />
-        <item itemvalue="Python.start (1)" />
-        <item itemvalue="Python.porcentages" />
+        <item itemvalue="Python.requirement_additions" />
       </list>
     </recent_temporary>
   </component>
@@ -183,26 +183,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1577735032050" />
-    <state width="1345" height="150" key="GridCell.Tab.0.bottom" timestamp="1577918294811">
+    <state width="1345" height="420" key="GridCell.Tab.0.bottom" timestamp="1577979016116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="150" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577918294811" />
-    <state width="1345" height="150" key="GridCell.Tab.0.center" timestamp="1577918294810">
+    <state width="1345" height="420" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577979016116" />
+    <state width="1345" height="420" key="GridCell.Tab.0.center" timestamp="1577979016116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="150" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577918294810" />
-    <state width="1345" height="150" key="GridCell.Tab.0.left" timestamp="1577918294810">
+    <state width="1345" height="420" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577979016116" />
+    <state width="1345" height="420" key="GridCell.Tab.0.left" timestamp="1577979016116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="150" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577918294810" />
-    <state width="1345" height="150" key="GridCell.Tab.0.right" timestamp="1577918294810">
+    <state width="1345" height="420" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577979016116" />
+    <state width="1345" height="420" key="GridCell.Tab.0.right" timestamp="1577979016116">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="150" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577918294810" />
+    <state width="1345" height="420" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577979016116" />
     <state x="150" y="15" key="SettingsEditor" timestamp="1577899493818">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
