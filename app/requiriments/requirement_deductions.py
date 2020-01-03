@@ -25,9 +25,6 @@ class RequirementDeductions:
         else:
             return 0
 
-    def repeat_characteres(self):
-        pass
-
     def consecutive_uppercase_letters(self):
         consecutive_upper = 0
         for i in range(len(self.__passwd) - 1):
