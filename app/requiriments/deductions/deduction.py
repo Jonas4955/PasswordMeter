@@ -1,7 +1,7 @@
 import re
 import string
 
-class RequirementDeductions:
+class Deductions:
     def __init__(self, passwd):
         self.__passwd = passwd
 

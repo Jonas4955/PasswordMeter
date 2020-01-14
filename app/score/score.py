@@ -1,11 +1,11 @@
-from app.requiriments.requirement_deductions import RequirementDeductions
-from app.requiriments.requirement_additions import RequirementsAdditions
+from app.requiriments.deductions.deduction import Deductions
+from app.requiriments.additions.addition import Additions
 
 class Score:
     def __init__(self, passwd):
         self.__passwd = passwd
-        self.__deduction = RequirementDeductions(passwd)
-        self.__addition = RequirementsAdditions(passwd)
+        self.__deduction = Deductions(passwd)
+        self.__addition = Additions(passwd)
         self.__score = 0
 
     def complexity(self):
@@ -25,24 +25,28 @@ class Score:
         return _complex
 
     def get_score(self):
-        add = self.score_add_characteres_passwd() + self.score_add_lowercases() + self.score_add_uppercases() + self.score_add_numbers() + self.score_add_symbols() + self.score_add_middle_numbers_or_symbols() + self.score_add_requeriments()
+        add = self.score_add_number_of_characteres_passwd() + self.score_add_lowercases() + self.score_add_uppercases() + self.score_add_numbers() + self.score_add_symbols() + self.score_add_middle_numbers_or_symbols() + self.score_add_requeriments()
         deduct = self.score_deduct_consecutive_numbers() + self.score_deduct_consecutives_lowercases() + self.score_deduct_consecutives_uppercases() + self.score_deduct_letters_only() + self.score_deduct_numbers_only() + self.score_deduct_sequential_letters() + self.score_deduct_sequential_numbers() + self.score_deduct_sequential_symbols()
         score = add - deduct
         if score > 100:
             score = 100
         return score
 
-    def score_add_characteres_passwd(self):
-        score = self.__addition.characteres_passwd() * 4
+    def score_add_number_of_characteres_passwd(self):
+        score = self.__addition.number_of_charactere_passwd() * 4
         return score
 
     def score_add_uppercases(self):
-        score = (len(self.__passwd) - self.__addition.uppercases()) * 2
-        return score
+        if self.__addition.uppercases() != 0:
+            score = (len(self.__passwd) - self.__addition.uppercases()) * 2
+            return score
+        return 0
 
     def score_add_lowercases(self):
-        score = (len(self.__passwd) - self.__addition.lowercases()) * 2
-        return score
+        if self.__addition.lowercases() != 0:
+            score = (len(self.__passwd) - self.__addition.lowercases()) * 2
+            return score
+        return 0
 
     def score_add_numbers(self):
         score = self.__addition.numbers() * 4
@@ -58,7 +62,7 @@ class Score:
 
     def score_add_requeriments(self):
         score = 0
-        if self.__addition.characteres_passwd() >= 8:
+        if self.__addition.number_of_charactere_passwd() >= 8:
             if self.__addition.requirements() >= 4:
                 score = self.__addition.requirements() * 2
         return score

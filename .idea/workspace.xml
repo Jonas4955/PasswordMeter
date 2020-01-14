@@ -25,18 +25,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlackJack-21" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\55479\Desktop\PasswordMeter\tests\unit\app\requeriments\deduction" />
+      <recent name="C:\Users\55479\Desktop\PasswordMeter\tests\unit\app\requeriments\addition" />
+      <recent name="C:\Users\55479\Desktop\PasswordMeter\app\requiriments\deductions" />
+      <recent name="C:\Users\55479\Desktop\PasswordMeter\app\requiriments\additions" />
       <recent name="C:\Users\55479\Desktop\PasswordMeter" />
-      <recent name="C:\Users\55479\Desktop\PasswordMeter\tests\unit" />
-      <recent name="C:\Users\55479\Desktop\PasswordMeter\app\deductions" />
-      <recent name="C:\Users\jonas.antunes\Desktop\python\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.start">
+  <component name="RunManager" selected="Python tests.pytest for test_addition.TestAdditions.test_requirements_return_numeros_de_requerimentos_atingidos">
     <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,35 +59,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_score.TestScore.test_complexity_of_password_good" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_addition.TestAdditions.test_middle_numbers_or_symbols_deve_retornar_quantidade_de_numbers_or_symbols_estao_entre_characters" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/app/score" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/app/requeriments/additions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_score.TestScore.test_complexity_of_password_good&quot;" />
+      <option name="_new_target" value="&quot;test_addition.TestAdditions.test_middle_numbers_or_symbols_deve_retornar_quantidade_de_numbers_or_symbols_estao_entre_characters&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_score.TestScore.test_complexity_of_password_strong" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_addition.TestAdditions.test_requirements_return_numeros_de_requerimentos_atingidos" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/app/score" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/unit/app/requeriments/additions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_score.TestScore.test_complexity_of_password_strong&quot;" />
+      <option name="_new_target" value="&quot;test_addition.TestAdditions.test_requirements_return_numeros_de_requerimentos_atingidos&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_score.TestScore.test_complexity_of_password_very_strong" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_score.TestScore.test_score_add_numbers_of_characters_passwd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,12 +98,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_score.TestScore.test_complexity_of_password_very_strong&quot;" />
+      <option name="_new_target" value="&quot;test_score.TestScore.test_score_add_numbers_of_characters_passwd&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_score.TestScore.test_complexity_of_password_weak" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_score.TestScore.test_soma_total_de_scores_positivos_e_negativos" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,18 +113,19 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_score.TestScore.test_complexity_of_password_weak&quot;" />
+      <option name="_new_target" value="&quot;test_score.TestScore.test_soma_total_de_scores_positivos_e_negativos&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_addition.TestAdditions.test_requirements_return_numeros_de_requerimentos_atingidos" />
+        <item itemvalue="Python tests.pytest for test_addition.TestAdditions.test_middle_numbers_or_symbols_deve_retornar_quantidade_de_numbers_or_symbols_estao_entre_characters" />
         <item itemvalue="Python.start" />
-        <item itemvalue="Python tests.Unittests for test_score.TestScore.test_complexity_of_password_strong" />
-        <item itemvalue="Python tests.Unittests for test_score.TestScore.test_complexity_of_password_very_strong" />
-        <item itemvalue="Python tests.Unittests for test_score.TestScore.test_complexity_of_password_good" />
-        <item itemvalue="Python tests.Unittests for test_score.TestScore.test_complexity_of_password_weak" />
+        <item itemvalue="Python tests.pytest for test_score.TestScore.test_soma_total_de_scores_positivos_e_negativos" />
+        <item itemvalue="Python tests.pytest for test_score.TestScore.test_score_add_numbers_of_characters_passwd" />
       </list>
     </recent_temporary>
   </component>
@@ -158,39 +163,55 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="0" key="#regras_pass/0.0.1366.728@0.0.1366.728" timestamp="1577900089608" />
-    <state x="448" y="183" key="FileChooserDialogImpl" timestamp="1578019118445">
+    <state x="448" y="183" key="FileChooserDialogImpl" timestamp="1578960360898">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1577735032050" />
-    <state x="448" y="183" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578019118445" />
-    <state width="1345" height="465" key="GridCell.Tab.0.bottom" timestamp="1578024321092">
+    <state x="448" y="183" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578960360898" />
+    <state width="1345" height="570" key="GridCell.Tab.0.bottom" timestamp="1579006336333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="465" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578024321092" />
-    <state width="1345" height="465" key="GridCell.Tab.0.center" timestamp="1578024321091">
+    <state width="1345" height="570" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579006336333" />
+    <state width="1345" height="570" key="GridCell.Tab.0.center" timestamp="1579006336333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="465" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578024321091" />
-    <state width="1345" height="465" key="GridCell.Tab.0.left" timestamp="1578024321091">
+    <state width="1345" height="570" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579006336333" />
+    <state width="1345" height="570" key="GridCell.Tab.0.left" timestamp="1579006336333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="465" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578024321091" />
-    <state width="1345" height="465" key="GridCell.Tab.0.right" timestamp="1578024321091">
+    <state width="1345" height="570" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579006336333" />
+    <state width="1345" height="570" key="GridCell.Tab.0.right" timestamp="1579006336333">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1577737235054" />
-    <state width="1345" height="465" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578024321091" />
-    <state x="150" y="15" key="SettingsEditor" timestamp="1577899493818">
+    <state width="1345" height="570" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579006336333" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1578070538808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578070538808" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1578070538808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578070538808" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1578070538808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578070538808" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1578070538808">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578070538808" />
+    <state x="150" y="15" key="SettingsEditor" timestamp="1578068182735">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="141" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1577733533708" />
-    <state x="150" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577899493818" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578018221553">
+    <state x="150" y="15" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578068182735" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578206466823">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578018221553" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578206466823" />
   </component>
 </project>
